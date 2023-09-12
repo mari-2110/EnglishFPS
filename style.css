@@ -1,0 +1,319 @@
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;  
+}
+
+.header-text {
+    font-family: 'Ysabeau Infant', sans-serif;
+
+}
+
+.slogan {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.img-jul {
+    padding: 30px;
+}
+
+.slogan-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slogan-text {
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 10px;
+}
+.slogan-text-bg {
+    background-color: #FFAE01;
+    display: inline-block;
+    transform: rotate(-1deg);
+    font-size: 65px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.btn-sl {
+    font-family: 'Ysabeau Infant', sans-serif;
+    padding: 20px;
+    margin: 10px;
+    border: 3px solid #95CAFF;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.btn-sl:hover {
+    background-color: #95CAFF;
+}
+
+.btn-sl-cor {
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.btn-sl-cor:hover {
+    color: white;
+}
+
+.mis-project {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* border: 3px solid #95CAFF; */
+    border-radius: 10px;
+    margin: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgb(149, 202, 255, 0.5);
+}
+
+.mis-project-header {
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.mission {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 50px;
+}
+
+.mis-project-text {
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 25px;
+}
+
+.about-project {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.about-text-project {
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 23px;
+    line-height: 1.5;
+}
+
+.cont-comment {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.text-cont-parent {
+    font-size: 30px;
+    text-align: center;
+    transform: rotate(-1deg);
+    color: #fff;
+    background-color: #95CAFF;
+    text-shadow: 1px 1px 1px #000;
+    padding: 10px;
+}
+
+.cont-parent-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.cont-parent-img-one {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.com-img {
+    border: 3px solid #95CAFF;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.container-button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.comment {
+    background-color: red;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.text-comment {
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+}
+
+.comment-btn {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.container-spotlight {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.container-spotlight-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #95CAFF;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.text-spot {
+    font-size: 25px;
+}
+
+.cont-btn-spot {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-spot {
+    padding: 15px;
+    background-color: red;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    margin: 10px;
+}
+
+.text-btn-spot {
+    text-decoration: none;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 18px;
+    color: #fff;
+}
+
+.btn-spot-green {
+    background-color: green;
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #efc1dc;
+}
+
+.footer-container-img {
+    display: flex;
+    align-items: center;
+}
+
+.footer-img-youtube {
+    border-radius: 10px;
+}
+
+.footer-txt-img {
+    padding: 10px;
+}
+
+.end {
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 18px;
+}
+.text-end {
+    text-decoration: none;
+    color: #FFAE01;
+}
+
+
+
+
+@media (max-width: 800px){
+
+    .about-project {
+        flex-wrap: wrap;
+    }
+
+    .img-jul {
+        width: 400px;
+        order: 2;
+    }
+    .slogan-text {
+        font-size: 25px;
+        text-align: center;
+    }
+    .slogan-text-bg{
+        font-size: 35px;
+    }
+    .btn-sl-cor {
+        font-size: 20px;
+    }
+    .mission {
+        margin-left: 20px;
+    }
+    .mis-project {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .mis-project-header {
+        font-size: 35px;
+    }
+    .jul-img {
+        width: 300px;
+    }
+    .cont-parent-img-one {
+        justify-content: center;
+    }
+    .end-new {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .jul-img {
+        width: 250px;
+    }
+    .img-jul {
+        width: 300px;
+    }
+    .about-project  {
+        margin: 25px;
+    }
+    .container-spotlight-one {
+        padding: 10px;
+        margin: 5px;
+    }
+    .img-sp-two {
+        width: 200px;
+    }
+    .text-cont-parent {
+        font-size: 25px;
+    }
+    .text-comment {
+        font-size: 35px;
+    }
+}
